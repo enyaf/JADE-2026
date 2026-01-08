@@ -20,7 +20,8 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1 
+        working-directory: JADE-2026
+        run: bahmutov/npm-install@v1 
 
       - name: Build project
         run: npm run build
