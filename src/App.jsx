@@ -9,8 +9,7 @@ function App() {
     </main>
 
     <img
-      src="/mountains.png"
-      alt="Mountain range"
+      src="/JADE-2026/mountains.png"      alt="Mountain range"
       className="mountains"
       />
     </div>
