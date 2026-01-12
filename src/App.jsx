@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1>Enya Fang</h1>
+    <main className="main">
+      <h1 className="name">Jane Doe</h1>
+      <p className="subtitle">
+        Student • Developer • Writer
+      </p>
+    </main>
   )
 }
 
