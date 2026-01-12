@@ -49,4 +49,6 @@ body {
   width: 100%;
   display: block;
   pointer-events: none;
+  height: 50vh;
+  background-size: cover;
 }
