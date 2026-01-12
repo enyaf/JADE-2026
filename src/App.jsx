@@ -1,5 +1,4 @@
 import './App.css'
-import mountains from './assets/mountains.png'
 
 function App() {
   return (
@@ -10,9 +9,9 @@ function App() {
     </main>
 
     <img
-      src={mountains}
+      src="/mountains.png"
       alt="Mountain range"
-      className="mountain-footer"
+      className="mountains"
       />
     </div>
   )
