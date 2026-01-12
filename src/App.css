@@ -16,20 +16,18 @@ body {
 }
 
 .page {
-  min-height: 100vh;
+  height: 100vh;
+  position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 
-.center
-{
-  height: 100%;
+.center{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
   z-index: 1;
 }
 
@@ -44,7 +42,7 @@ body {
   color: #555;
 }
 
-.mountains {
+.mountain-footer {
   position: absolute;
   bottom: 0;
   left: 0;

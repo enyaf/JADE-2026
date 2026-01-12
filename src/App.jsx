@@ -1,4 +1,5 @@
 import './App.css'
+import mountains from './assets/mountains.png'
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
     </main>
 
     <img
-      src="/JADE-2026/mountains.png"      alt="Mountain range"
-      className="mountains"
+      src={mountains}      
+      alt="Mountain range"
+      className="mountain-footer"
       />
     </div>
   )
