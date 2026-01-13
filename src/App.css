@@ -26,6 +26,10 @@ body {
 /* Header */
 .header {
   margin-bottom: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .name {
@@ -47,6 +51,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 /* Portfolio items */
