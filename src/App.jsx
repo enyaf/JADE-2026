@@ -1,29 +1,29 @@
 import "./App.css";
-import rockies from "./assets/rockies";
-import rockies2 from  "./assets/rockies2";
-import rockies3 from "./assets/rockies3";
-import rockies4 from "./assets/rockies4";
+import rockiesOne from "./assets/rockies.png";
+import rockiesTwo from  "./assets/rockies2.png";
+import rockiesThree from "./assets/rockies3.png";
+import rockiesFour from "./assets/rockies4.png";
 
 
 const works = [
   {
     title: "poems from chained to moonlight",
-    image: rockies,
+    image: rockiesOne,
     link: "https://www.subnivean.org/post/enya-fang",
   },
   {
     title: "home when the seasons change",
-    image: rockies2,
+    image: rockiesTwo,
     link: "https://eunoiareview.wordpress.com/2025/03/06/home-when-the-seasons-change/",
   },
   {
     title: "midsummer / mortal",
-    image: rockies3,
+    image: rockiesThree,
     link: "https://www.hobartpulp.com/web_features/2-poems-b8e501b6-4a30-4a54-88d4-8cd467257ca4",
   },
   {
     title: "water under the bridge",
-    image: rockies4,
+    image: rockiesFour,
     link: "https://thehooghlyreview.com/issues/issue-3/",
   },
 ];
