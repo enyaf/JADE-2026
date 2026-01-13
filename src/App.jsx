@@ -1,8 +1,8 @@
 import "./App.css";
-import rockies from "./assets/rockies.png";
-import rockies2 from  "./assets/rockies2.png";
-import rockies3 from "./assets/rockies3.png";
-import rockies4 from "./assets/rockies4.png";
+import rockies from "./assets/rockies";
+import rockies2 from  "./assets/rockies2";
+import rockies3 from "./assets/rockies3";
+import rockies4 from "./assets/rockies4";
 
 
 const works = [
