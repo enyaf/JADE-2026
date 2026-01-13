@@ -7,7 +7,7 @@ import rockiesFour from "./assets/rockies4.png";
 
 const works = [
   {
-    title: "poems from chained to moonlight",
+    title: "chained to moonlight",
     image: rockiesOne,
     link: "https://www.subnivean.org/post/enya-fang",
   },
@@ -35,7 +35,6 @@ function App() {
         <h1 className="name">Enya Fang</h1>
         <p className="blurb">
           A space for fiction. Selected poems & prose written for literary magazines by Enya Fang, a current Columbia freshman who occasionally picks up a pen.
-          work.
         </p>
       </header>
 
