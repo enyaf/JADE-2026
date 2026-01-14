@@ -49,8 +49,9 @@ body {
 /* Portfolio grid */
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
   gap: 1.5rem;
+  justify-content: center;
   margin: 0 auto;
   max-width: 1000px;
 }
