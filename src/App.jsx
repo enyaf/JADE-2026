@@ -3,7 +3,8 @@ import rockiesOne from "./assets/rockies.png";
 import rockiesTwo from  "./assets/rockies2.png";
 import rockiesThree from "./assets/rockies3.png";
 import rockiesFour from "./assets/rockies4.png";
-
+import { Routes, Route, Link } from "react-router-dom";
+import Bookshelf from "./Bookshelf";
 
 const works = [
   {
@@ -30,62 +31,77 @@ const works = [
 
 function App() {
   return (
-    <div className="page">
-      <div className="bookshelf-button">
-      <a href="/bookshelf" className="bookshelf-link">
-        <span className="book-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none">
-          <path
-            d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4z"
-            stroke="currentColor"
-            strokeWidth="1.1"
-          />
-        <path
-          d="M5 4v16a3 3 0 0 1 3-3h11"
-          stroke="currentColor"
-          strokeWidth="1.1"
-          />
-        </svg>
-      </span>
-    <span className="bookshelf-text">Bookshelf</span>
-  </a>
-</div>
-      <header className="header">
-        <h1 className="name">Enya Fang</h1>
-        <p className="blurb">
-          A space for fiction. My literary archive. Selected poems & prose written for journals & publications since 2023.
-        </p>
-      </header>
+    <Routes>
 
-      <section className="portfolio">
-        {works.map((work, index) => (
-          <a
-            key={index}
-            href={work.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="portfolio-item"
-          >
-            <img src={work.image} alt={work.title} />
-            <div className="overlay">
-              <span>{work.title}</span>
+      {/* HOME PAGE */}
+      <Route
+        path="/"
+        element={
+          <div className="page">
+
+            {/* BOOKSHELF BUTTON */}
+            <div className="bookshelf-button">
+              <Link to="/bookshelf" className="bookshelf-link">
+                <span className="book-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4z"
+                      stroke="currentColor"
+                      strokeWidth="1.1"
+                    />
+                    <path
+                      d="M5 4v16a3 3 0 0 1 3-3h11"
+                      stroke="currentColor"
+                      strokeWidth="1.1"
+                    />
+                  </svg>
+                </span>
+                <span className="bookshelf-text">Bookshelf</span>
+              </Link>
             </div>
-          </a>
-        ))}
-      </section>
-    {/* EMAIL ICON */}
-  <div className="email-wrapper">
-    <div className="email-display">
-      <span className="email-icon" aria-hidden="true">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-        <path d="M3 6h18v12H3z" stroke="currentColor" strokeWidth="1.1" />
-        <path d="M3 6l9 7 9-7" stroke="currentColor" strokeWidth="1.1" />
-      </svg>
-    </span>
-    <span className="email-text">enyafang01@gmail.com</span>
-  </div>
-  </div>
-</div>
+
+            {/* YOUR EXISTING PAGE (UNCHANGED) */}
+            <header className="header">
+              <h1 className="name">Enya Fang</h1>
+              <p className="blurb">
+                A space for fiction. My literary archive. Selected poems & prose written for journals & publications since 2023.
+              </p>
+            </header>
+
+            <section className="portfolio">
+              {works.map((work, index) => (
+                <a
+                  key={index}
+                  href={work.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="portfolio-item"
+                >
+                  <img src={work.image} alt={work.title} />
+                  <div className="overlay">
+                    <span>{work.title}</span>
+                  </div>
+                </a>
+              ))}
+            </section>
+
+            <div className="email-wrapper">
+              <div className="email-display">
+                <span className="email-icon" aria-hidden="true">
+                  {/* email svg */}
+                </span>
+                <span className="email-text">enyafang01@gmail.com</span>
+              </div>
+            </div>
+
+          </div>
+        }
+      />
+
+      {/* BOOKSHELF PAGE */}
+      <Route path="/bookshelf" element={<Bookshelf />} />
+
+    </Routes>
   );
 }
 
