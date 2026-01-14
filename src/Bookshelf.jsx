@@ -1,6 +1,14 @@
+import { Link } from "react-router-dom";
+
 function Bookshelf() {
   return (
     <div className="page">
+       {/* BACK BUTTON */}
+      <div className="bookshelf-back">
+        <Link to="/" className="back-link">
+          ← Back to Archive
+        </Link>
+      </div>
       <header className="header">
         <h1 className="name">Enya's Bookshelf</h1>
         <p className="blurb">

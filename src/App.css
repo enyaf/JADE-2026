@@ -186,3 +186,21 @@ body {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
 }
+
+.bookshelf-back {
+  margin-bottom: 2rem;
+}
+
+.back-link {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.65);
+  transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.back-link:hover {
+  color: #ffffff;
+  transform: translateX(-2px);
+}
