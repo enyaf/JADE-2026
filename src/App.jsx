@@ -34,7 +34,7 @@ function App() {
       <header className="header">
         <h1 className="name">Enya Fang</h1>
         <p className="blurb">
-          A space for fiction. Selected poems & prose written for literary magazines by Enya Fang, a current Columbia freshman who occasionally picks up a pen.
+          A space for fiction. My literary archive. Selected poems & prose written for journals & publications from 2023-present.
         </p>
       </header>
 
@@ -54,6 +54,19 @@ function App() {
           </a>
         ))}
       </section>
+    {/* EMAIL ICON */}
+      <div className="email-wrapper">
+        <a
+          href="mailto:enyafang01@gmail.com"
+          className="email-icon"
+          aria-label="Email"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+            <path d="M3 6h18v12H3z" stroke="currentColor" strokeWidth="1" />
+            <path d="M3 6l9 7 9-7" stroke="currentColor" strokeWidth="1" />
+          </svg>
+        </a>
+      </div>
     </div>
   );
 }

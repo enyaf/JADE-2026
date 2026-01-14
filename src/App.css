@@ -112,3 +112,24 @@ body {
   text-transform: uppercase;
   color: #e6e1d8;
 }
+
+/* email button */
+.email-wrapper {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.email-icon {
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+
+  transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.email-icon:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+}
