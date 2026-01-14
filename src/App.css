@@ -148,3 +148,41 @@ body {
   color: rgba(255,255,255,0.75);
   line-height: 1;
 }
+.bookshelf-button {
+  position: fixed;
+  top: 1.8rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.bookshelf-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(15, 15, 15, 0.85);
+  color: #e6e1d8;
+  text-decoration: none;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.bookshelf-link:hover {
+  transform: translateY(-2px);
+  background: rgba(30, 30, 30, 0.95);
+}
+
+/* Book icon */
+.book-icon {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bookshelf-text {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}

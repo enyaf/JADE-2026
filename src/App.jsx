@@ -31,6 +31,25 @@ const works = [
 function App() {
   return (
     <div className="page">
+      <div className="bookshelf-button">
+      <a href="/bookshelf" className="bookshelf-link">
+        <span className="book-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path
+            d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4z"
+            stroke="currentColor"
+            strokeWidth="1.1"
+          />
+        <path
+          d="M5 4v16a3 3 0 0 1 3-3h11"
+          stroke="currentColor"
+          strokeWidth="1.1"
+          />
+        </svg>
+      </span>
+    <span className="bookshelf-text">Bookshelf</span>
+  </a>
+</div>
       <header className="header">
         <h1 className="name">Enya Fang</h1>
         <p className="blurb">
