@@ -125,7 +125,8 @@ body {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-
+  width: 20px;
+  height: 20px;
   transition: color 0.25s ease, transform 0.2s ease;
 }
 
