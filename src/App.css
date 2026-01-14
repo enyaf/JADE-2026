@@ -10,6 +10,9 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-color: #0f0f0f;
   color: #e6e1d8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #root {
