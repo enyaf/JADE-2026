@@ -55,19 +55,18 @@ function App() {
         ))}
       </section>
     {/* EMAIL ICON */}
-      <div className="email-wrapper">
-        <a
-          href="mailto:enyafang01@gmail.com"
-          className="email-icon"
-          aria-label="Email"
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-            <path d="M3 6h18v12H3z" stroke="currentColor" strokeWidth="1" />
-            <path d="M3 6l9 7 9-7" stroke="currentColor" strokeWidth="1" />
-          </svg>
-        </a>
-      </div>
-    </div>
+  <div className="email-wrapper">
+    <div className="email-display">
+      <span className="email-icon" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path d="M3 6h18v12H3z" stroke="currentColor" strokeWidth="1.1" />
+        <path d="M3 6l9 7 9-7" stroke="currentColor" strokeWidth="1.1" />
+      </svg>
+    </span>
+    <span className="email-text">enyafang01@gmail.com</span>
+  </div>
+  </div>
+</div>
   );
 }
 
