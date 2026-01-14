@@ -34,7 +34,7 @@ function App() {
       <header className="header">
         <h1 className="name">Enya Fang</h1>
         <p className="blurb">
-          A space for fiction. My literary archive. Selected poems & prose written for journals & publications from 2023-present.
+          A space for fiction. My literary archive. Selected poems & prose written for journals & publications since 2023.
         </p>
       </header>
 
