@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import favCover from "./assets/favCover.png";
-import currentCover from "./currentCover.png";
-import recentCover from "./recentCover.png";
+import currentCover from "./assets/currentCover.png";
+import recentCover from "./assets/recentCover.png";
 
 function Bookshelf() {
   return (
