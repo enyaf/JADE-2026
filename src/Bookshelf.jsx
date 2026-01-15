@@ -12,7 +12,7 @@ function Bookshelf() {
       <header className="header">
         <h1 className="name">My Bookshelf</h1>
         <p className="blurb">
-          Current, past, and favourites. 
+          Historical Fiction / Fantasy / Classics 
         </p>
       </header>
 
