@@ -29,22 +29,22 @@ function Bookshelf() {
   <div className="bookshelf-column">
     <h2 className="bookshelf-heading">Recent</h2>
     <ul className="bookshelf-list">
-      <li>The Rose Code</li>
-      <li>Sword Catcher</li>
-      <li>The Kite Runner</li>
-      <li>When the Moon Hatched</li>
-      <li>The Count of Monte Cristo</li>
+      <li>The Rose Code (4.5/5)</li>
+      <li>Sword Catcher (4/5)</li>
+      <li>The Kite Runner (4/5)</li>
+      <li>When the Moon Hatched (4.5/5)</li>
+      <li>The Count of Monte Cristo (5/5)</li>
     </ul>
   </div>
 
   <div className="bookshelf-column">
     <h2 className="bookshelf-heading">Favourites</h2>
     <ul className="bookshelf-list">
-      <li>The Infernal Devices</li>
-      <li>The Remnant Chronicles</li>
-      <li>The Song of Achilless</li>
-      <li>Anne of Green Gables</li>
-      <li>Heidi</li>
+      <li>The Infernal Devices (5/5)</li>
+      <li>The Remnant Chronicles (4.5/5)</li>
+      <li>The Song of Achilless (5/5)</li>
+      <li>Anne of Green Gables (5/5)</li>
+      <li>Heidi (5/5)</li>
     </ul>
   </div>
 </section>
