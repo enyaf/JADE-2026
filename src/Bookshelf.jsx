@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import favCover from "./assets/favCover.png";
+import currentCover from "./currentCover.png";
+import recentCover from "./recentCover.png";
 
 function Bookshelf() {
   return (
@@ -24,6 +27,11 @@ function Bookshelf() {
       <li>The Bell Jar</li>
       <li>The Jasad Crown</li>
     </ul>
+    <img
+          src={currentCover}
+          alt="Current book cover"
+          className="book-cover"
+        />
   </div>
 
   <div className="bookshelf-column">
@@ -35,6 +43,11 @@ function Bookshelf() {
       <li>When the Moon Hatched (4.5/5)</li>
       <li>The Count of Monte Cristo (5/5)</li>
     </ul>
+    <img
+          src={recentCover}
+          alt="Recent book cover"
+          className="book-cover"
+        />
   </div>
 
   <div className="bookshelf-column">
@@ -42,10 +55,15 @@ function Bookshelf() {
     <ul className="bookshelf-list">
       <li>The Infernal Devices (5/5)</li>
       <li>The Remnant Chronicles (4.5/5)</li>
-      <li>The Song of Achilless (5/5)</li>
+      <li>The Song of Achilles (5/5)</li>
       <li>Anne of Green Gables (5/5)</li>
       <li>Heidi (5/5)</li>
     </ul>
+    <img
+          src={favCover}
+          alt="Favourite book cover"
+          className="book-cover"
+        />
   </div>
 </section>
     </div>
