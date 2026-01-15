@@ -16,12 +16,38 @@ function Bookshelf() {
         </p>
       </header>
 
-      <section>
-        <h2>Currently Reading
-        </h2>
-        <h2>Previously Read</h2>
-        <h2>Favourites</h2>
-      </section>
+      <section className="bookshelf-grid">
+  <div className="bookshelf-column">
+    <h2 className="bookshelf-heading">Current</h2>
+    <ul className="bookshelf-list">
+      <li>All the Colours of the Dark</li>
+      <li>The Bell Jar</li>
+      <li>The Jasad Crown</li>
+    </ul>
+  </div>
+
+  <div className="bookshelf-column">
+    <h2 className="bookshelf-heading">Recent</h2>
+    <ul className="bookshelf-list">
+      <li>The Rose Code</li>
+      <li>Sword Catcher</li>
+      <li>The Kite Runner</li>
+      <li>When the Moon Hatched</li>
+      <li>The Count of Monte Cristo</li>
+    </ul>
+  </div>
+
+  <div className="bookshelf-column">
+    <h2 className="bookshelf-heading">Favourites</h2>
+    <ul className="bookshelf-list">
+      <li>The Infernal Devices</li>
+      <li>The Remnant Chronicles</li>
+      <li>The Song of Achilless</li>
+      <li>Anne of Green Gables</li>
+      <li>Heidi</li>
+    </ul>
+  </div>
+</section>
     </div>
   );
 }

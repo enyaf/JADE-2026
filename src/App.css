@@ -199,3 +199,35 @@ body {
   color: #ffffff;
   transform: translateX(-2px);
 }
+
+/* Bookshelf layout */
+.bookshelf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bookshelf-column {
+  text-align: center;
+}
+
+.bookshelf-heading {
+  font-size: 1.1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  color: #e6e1d8;
+}
+
+.bookshelf-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bookshelf-list li {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+}
