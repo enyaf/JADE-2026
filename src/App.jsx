@@ -88,7 +88,25 @@ function App() {
             <div className="email-wrapper">
               <div className="email-display">
                 <span className="email-icon" aria-hidden="true">
-                  {/* email svg */}
+                  {<span className="email-icon" aria-hidden="true">
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    width="20"
+    height="20"
+  >
+    <path
+      d="M3 6h18v12H3z"
+      stroke="currentColor"
+      strokeWidth="1.2"
+    />
+    <path
+      d="M3 6l9 7 9-7"
+      stroke="currentColor"
+      strokeWidth="1.2"
+    />
+  </svg>
+</span>}
                 </span>
                 <span className="email-text">enyafang01@gmail.com</span>
               </div>
