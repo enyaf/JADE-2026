@@ -137,11 +137,6 @@ body {
   transition: color 0.25s ease, transform 0.2s ease;
 }
 
-.email-display:hover .email-icon {
-  color: #ffffff;
-  transform: translateY(-1px);
-}
-
 .email-text {
   font-size: 0.8rem;
   letter-spacing: 0.06em;
