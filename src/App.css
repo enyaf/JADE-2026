@@ -255,6 +255,7 @@ body {
 .page::after {
   content: "";
   display: block;
+  position: relative;
   margin: 4rem auto 0;
   width: 80%;
   height: 1px;
