@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./About";
 import rockiesOne from "./assets/rockies.png";
 import rockiesTwo from  "./assets/rockies2.png";
 import rockiesThree from "./assets/rockies3.png";
@@ -40,26 +41,29 @@ function App() {
           <div className="page">
 
             {/* BOOKSHELF BUTTON */}
-            <div className="bookshelf-button">
-              <Link to="/bookshelf" className="bookshelf-link">
-                <span className="book-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4z"
-                      stroke="currentColor"
-                      strokeWidth="1.1"
-                    />
-                    <path
-                      d="M5 4v16a3 3 0 0 1 3-3h11"
-                      stroke="currentColor"
-                      strokeWidth="1.1"
-                    />
-                  </svg>
-                </span>
-                <span className="bookshelf-text">Bookshelf</span>
-              </Link>
-            </div>
+        <div className="nav-buttons">
+  <Link to="/bookshelf" className="bookshelf-link">
+    <span className="book-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path
+          d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4z"
+          stroke="currentColor"
+          strokeWidth="1.1"
+        />
+        <path
+          d="M5 4v16a3 3 0 0 1 3-3h11"
+          stroke="currentColor"
+          strokeWidth="1.1"
+        />
+      </svg>
+    </span>
+    <span className="bookshelf-text">Bookshelf</span>
+  </Link>
 
+  <Link to="/about" className="bookshelf-link about-link">
+    <span className="bookshelf-text">About</span>
+  </Link>
+</div>
             {/* YOUR EXISTING PAGE (UNCHANGED) */}
             <header className="header">
               <h1 className="name">Enya Fang</h1>
@@ -88,25 +92,7 @@ function App() {
             <div className="email-wrapper">
               <div className="email-display">
                 <span className="email-icon" aria-hidden="true">
-                  {<span className="email-icon" aria-hidden="true">
-  <svg
-    viewBox="0 0 24 24"
-    fill="none"
-    width="20"
-    height="20"
-  >
-    <path
-      d="M3 6h18v12H3z"
-      stroke="currentColor"
-      strokeWidth="1.2"
-    />
-    <path
-      d="M3 6l9 7 9-7"
-      stroke="currentColor"
-      strokeWidth="1.2"
-    />
-  </svg>
-</span>}
+                  {/* email svg */}
                 </span>
                 <span className="email-text">enyafang01@gmail.com</span>
               </div>
@@ -118,7 +104,7 @@ function App() {
 
       {/* BOOKSHELF PAGE */}
       <Route path="/bookshelf" element={<Bookshelf />} />
-
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }
