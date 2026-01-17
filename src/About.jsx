@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import aboutPhoto from "./assets/portrait.jpg";
 
 function About() {
   return (
@@ -11,21 +12,24 @@ function About() {
       </div>
 
       <header className="header">
-        <h1 className="name">About Me</h1>
-        <p className="blurb">
-          I’m a writer working in poetry and prose, interested in memory,
-          landscape, and the quiet violences of time. My work has appeared
-          in literary journals since 2023.
+        <img
+          src={aboutPhoto}
+          alt="Portrait of Enya Fang"
+          className="about-photo"
+        />
+
+        <p className="about-blurb">
+          <strong>Enya Fang</strong> is a 18-year-old Chinese-Canadian writer.
+          Her poetry is published in <em>Subnivean</em>, <em>HOBART</em>,{" "}
+          <em>Eunoia Review</em>, and <em>The Hooghly Review</em>. Her work has
+          been recognized by <em>CBC Books</em>, <em>A&amp;E Network</em>, and{" "}
+          <em>Scholastic Art &amp; Writing Awards</em>. She has written over 20
+          articles for newspapers, nonprofits, and other freelance networks.
+          Enya’s microchap <em>Chained to Moonlight</em> (Maverick Duck Press)
+          was published in 2024. She is currently a freshman student at
+          Columbia University.
         </p>
       </header>
-
-      <section style={{ maxWidth: "700px", margin: "0 auto", lineHeight: "1.7", color: "rgba(255,255,255,0.8)" }}>
-        <p>
-          This site is an archive of selected work and personal reading.
-          I’m drawn to historical fiction, myth, and remembrance —
-          writing that lingers.
-        </p>
-      </section>
     </div>
   );
 }

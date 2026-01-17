@@ -269,3 +269,35 @@ body {
     transparent
   );
 }
+
+.about-photo {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 2rem;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  filter: grayscale(100%) contrast(1.05);
+  transition: filter 0.4s ease;
+}
+
+.about-photo:hover {
+  filter: grayscale(0%) contrast(1.1);
+}
+
+.about-blurb {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #bfb9ae;
+  text-align: center;
+}
+
+.about-blurb strong {
+  font-weight: 600;
+  color: #e6e1d8;
+}
+
+.about-blurb em {
+  font-style: italic;
+}
