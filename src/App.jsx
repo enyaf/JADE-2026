@@ -40,22 +40,22 @@ function App() {
           <div className="page">
 
             {/* BOOKSHELF BUTTON */}
-         <div className = "bookshelf-button">
+         <div className = "nav-buttons">
           <Link to ="/bookshelf"
           className="bookshelf-link">
             <span className="book-icon" aria-hidden="true">
-              <svg viewBox = "0 0 24 24"fill="none"><
-                path
-                d="M5 4h11a3 30013 3v13H8a3 3 0 0 0-3 3V4z"
-                stroke="currentColor"
-                strokeWidth="1.1"
-                />
-                <path
-                d="M5 4v16a3 3 0 0 1 3-3h11" 
-                stroke="currentColor"
-                strokeWidth = "1.1"
-                />
-            </svg>
+              <svg viewBox="0 0 24 24" fill="none">
+  <path
+    d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4z"
+    stroke="currentColor"
+    strokeWidth="1.1"
+  />
+  <path
+    d="M5 4v16a3 3 0 0 1 3-3h11"
+    stroke="currentColor"
+    strokeWidth="1.1"
+  />
+</svg>
             </span>
             <span className="bookshelf-text">Bookshelf</span>
           </Link>
