@@ -21,7 +21,7 @@ function Bookshelf() {
 
       <section className="bookshelf-grid">
   <div className="bookshelf-column">
-    <h2 className="bookshelf-heading">Current</h2>
+    <h2 className="bookshelf-heading">Current ☆</h2>
     <ul className="bookshelf-list">
       <li>All the Colours of the Dark</li>
       <li>The Bell Jar</li>
@@ -35,7 +35,7 @@ function Bookshelf() {
   </div>
 
   <div className="bookshelf-column">
-    <h2 className="bookshelf-heading">Recent</h2>
+    <h2 className="bookshelf-heading">Recent ⏱︎</h2>
     <ul className="bookshelf-list">
       <li>The Rose Code (4.5/5)</li>
       <li>Sword Catcher (4/5)</li>
@@ -51,7 +51,7 @@ function Bookshelf() {
   </div>
 
   <div className="bookshelf-column">
-    <h2 className="bookshelf-heading">Favourites</h2>
+    <h2 className="bookshelf-heading">Favourites ♡</h2>
     <ul className="bookshelf-list">
       <li>The Infernal Devices (5/5)</li>
       <li>The Remnant Chronicles (4.5/5)</li>
