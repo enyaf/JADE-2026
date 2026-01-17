@@ -61,7 +61,15 @@ function App() {
             <span className="bookshelf-text">Bookshelf</span>
           </Link>
           {/* ABOUT BUTTON */}
-  <Link to="/about" className="bookshelf-link">
+    <Link to="/about" className="bookshelf-link">
+    <span className="book-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5"/>
+        <circle cx="9" cy="10" r="1" fill="currentColor"/>
+        <circle cx="15" cy="10" r="1" fill="currentColor"/>
+        <path d="M8 16c1.5 1 4.5 1 6 0" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      </svg>
+    </span>
     <span className="bookshelf-text">Biography</span>
   </Link>
          </div>
