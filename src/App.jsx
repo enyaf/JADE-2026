@@ -62,7 +62,7 @@ function App() {
           </Link>
           {/* ABOUT BUTTON */}
   <Link to="/about" className="bookshelf-link">
-    <span className="bookshelf-text">About</span>
+    <span className="bookshelf-text">Biography</span>
   </Link>
          </div>
             {/* YOUR EXISTING PAGE (UNCHANGED) */}
