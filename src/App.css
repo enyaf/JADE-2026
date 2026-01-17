@@ -253,6 +253,13 @@ body {
   max-width: 180px;
   align-self: center;
   margin-bottom: 1rem;
+  
+  filter: grayscale(100%) contrast(1.05);
+  transition: filter 0.4s ease;
+}
+
+.bookshelf-column:hover .book-cover {
+  filter: grayscale(0%) contrast(1.1);
 }
 
 .page::after {
