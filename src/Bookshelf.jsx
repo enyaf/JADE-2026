@@ -13,7 +13,7 @@ function Bookshelf() {
         </Link>
       </div>
       <header className="header">
-        <h1 className="name">My Bookshelf</h1>
+        <h1 className="name">Reading...</h1>
         <p className="blurb">
           Historical Fiction / Fantasy / Classics 
         </p>
