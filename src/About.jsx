@@ -22,11 +22,11 @@ function About() {
           <strong>Enya Fang</strong> is a 18-year-old Chinese-Canadian writer.
           Her poetry is published in <em>Subnivean</em>, <em>HOBART</em>,{" "}
           <em>Eunoia Review</em>, and <em>The Hooghly Review</em>. Her work has
-          been recognized by <em>CBC Books</em>, <em>A&amp;E Network</em>, and{" "}
+          been recognized by <em>CBC Books</em>, <em>A&amp;E Network</em>, and the {" "}
           <em>Scholastic Art &amp; Writing Awards</em>. She has written over 20
           articles for newspapers, nonprofits, and other freelance networks.
           Enya’s microchap <em>Chained to Moonlight</em> (Maverick Duck Press)
-          was published in 2024. She is currently a freshman student at
+          was published in 2024. She is currently a freshman at
           Columbia University.
         </p>
       </header>
