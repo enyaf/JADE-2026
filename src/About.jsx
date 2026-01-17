@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import aboutPhoto from "./assets/portrait.jpg";
+import aboutPhoto from "./assets/portrait.jpeg";
 
 function About() {
   return (
