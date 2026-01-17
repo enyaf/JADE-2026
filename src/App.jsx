@@ -5,6 +5,7 @@ import rockiesThree from "./assets/rockies3.png";
 import rockiesFour from "./assets/rockies4.png";
 import { Routes, Route, Link } from "react-router-dom";
 import Bookshelf from "./Bookshelf";
+import About from "./About";
 
 const works = [
   {
@@ -59,6 +60,10 @@ function App() {
             </span>
             <span className="bookshelf-text">Bookshelf</span>
           </Link>
+          {/* ABOUT BUTTON */}
+  <Link to="/about" className="bookshelf-link">
+    <span className="bookshelf-text">About</span>
+  </Link>
          </div>
             {/* YOUR EXISTING PAGE (UNCHANGED) */}
             <header className="header">
@@ -100,6 +105,7 @@ function App() {
 
       {/* BOOKSHELF PAGE */}
       <Route path="/bookshelf" element={<Bookshelf />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }
